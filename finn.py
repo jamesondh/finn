@@ -9,8 +9,8 @@ def respond(response):
 
 exit = False
 
-print "\nMY NAME IS FINN. HOW CAN I HELP YOU?\n"
-os.system("espeak -v en-us -p 0 -s 150 \"MY NAME IS FINN. HOW CAN I HELP YOU?\"")
+print # Initialize program with blank line
+respond("MY NAME IS FINN. HOW CAN I HELP YOU?")
 
 while exit is not True:
 
